@@ -1,0 +1,16 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	for i := 1; i <= 31; i++ {
+
+		if (i % 3) == 0 {
+			fmt.Println(i)
+			fmt.Println("----------")
+			fmt.Println(i / 3)
+			fmt.Println("*************")
+		}
+	}
+}
